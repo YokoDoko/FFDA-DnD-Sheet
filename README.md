@@ -1,7 +1,7 @@
 # FFDA-DnD-Sheet
 The goal of the project is to have a fully customizable character sheet that also includes a way to roll actions.
 
----> Please note, this is my first ever project using Python. This is purely a learning experience while also having a fundamental use in my personal life. If you for some reason find anything within my code useful for your own, feel free to use it!
+Please note, this is my first ever project using Python. This is purely a learning experience while also having a fundamental use in my personal life. If you for some reason find anything within my code useful for your own, feel free to use it!
 
 
 
