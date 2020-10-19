@@ -5,18 +5,17 @@ Please note, this is my first ever project using Python. This is purely a learni
 
 
 
-I am using the "math" and "random" libraries for this project. The "math" library is mostly needed for rounding values up or down using the ciel() and floor() functions. The "random" library is essential for dice rolls thanks to the randint() function.
+I am using the "math" and "random" libraries for this project. The "math" library is mostly needed for rounding values up or down using the ceil() and floor() functions. The "random" library is essential for dice rolls thanks to the randint() function. Other functions are self-made.
 
 
 
 Current Progress :
 
----> Successfully made a Player class that can nest a list of other classes inside of it. This is so a player can be listed under multiple classes (such as Warrior, Bard, and Astrologian).
+---> updateStats() function inside the Warrior class properly calculates stats.
 
----> Successfully made a function to roll a dice. The default minimum value is 1, as a dice should not be able to roll a 0.
+---> Created "statchecker.py" to reduce repetitive if statements to calculate stats, health, and modifiers.
 
----> Made a function that will update the stats to be proper values using formulas I made.
-
+---> Moved the rollDice() function into a separate file called "dice.py".
 
 
 # This list will be only for what I believe I should work on next. This does not represent the entirety of the project.
@@ -24,10 +23,10 @@ To-Do List :
 
 ---> Move rollDice into a file outside of "main.py" for accessibility. Other classes will need it for functions within them.
 
----> Finish the updateStats function within Warrior.
+---> Find a way to move updateStats() outside of the Warrior class for reusability. Potentially 
 
----> Contemplate another way of doing classes, as a lot of repetition with variables such as Health Points, Strength, Dexterity, and etc. may occur.
+---> Create functions for the skills of Warrior
 
 Completed Features :
 
----> Currently none.
+---> Stat updater
